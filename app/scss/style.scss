@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+header{
+    background-color: hsl(217, 54%, 11%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-card {
+    width: 450px;
+    height: 720px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+.banner-card img{
+    border-radius: 15px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    width: 380px;
+    height: 400px;
+    cursor: pointer;
+}
+.card-text {
+    text-align: left;
+}
+
+.card-text h1 {
+    color: hsl(0, 0%, 100%);
+    font-weight: 400;
+    font-size: 1.8rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 380px;
+    cursor: pointer;
+}
+.card-text h1:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+.card-text p {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    font-size: 1.3rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    width: 380px;
+}
+.card-ethereum {
+    color: hsl(178, 100%, 50%);
+    font-weight: 300;
+    font-size: 0.7rem;
+    width: 160px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-ethereum img{
+    display: block;
+    margin-left: 30px;
+}
+
+.card-clock{
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    font-weight: 300;
+    font-size: 0.7rem;
+    margin-left: 25px;
+    width: 120px;
+    margin-left: 17rem;
+    margin-top: -1.5rem;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.linha-horizontal{
+    width: 350px;
+    margin: 1rem;
+    margin-left: 2rem;
+    border: 1px solid hsl(228, 45%, 44%);
+}
+
+.desc img{
+    width: 50px;
+    height: 50px;
+    margin-left: 40px;
+    margin-top: -5px;
+}
+.desc span{
+    color: hsl(215, 51%, 70%);
+    margin-left: 10px;
+    display: flex;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-left: 100px;
+    margin-top: -2.2rem;
+}
+.desc span a{
+    color: hsl(0, 0%, 100%);
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.desc span a:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.footer{
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(215, 51%, 70%);
+    padding: 2.5rem;
+
+    .attribution{
+        font-weight: 300;
+        font-size: 1rem;
+        text-align: center;
+    }
+    
+    .attribution a{
+        text-decoration: none;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .attribution a:hover{
+        color: hsl(178, 100%, 50%);
+    }
+}
+
